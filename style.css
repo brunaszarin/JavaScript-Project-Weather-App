@@ -68,7 +68,7 @@
 
     .weather h2{
         font-size: 45px;
-        font-weight: 400;
+        font-weight: 100;
         margin-top: -10px;
     }
 
@@ -78,4 +78,21 @@
         justify-content: space-between;
         padding: 0 20px;
         margin-top: 50px;
+    }
+
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .col img{
+        width: 40px;
+        margin: 10px;
+
+    }
+
+    .humidity, .wind{
+        font-size: 20px;
+        margin-top: -6px;
     }
