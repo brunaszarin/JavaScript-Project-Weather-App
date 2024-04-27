@@ -15,14 +15,15 @@
         background: linear-gradient(135deg, #00feba, #5b548a);
         color: #fff;
         margin: 100px auto 0;
-        border-radius: 30px;
+        border-radius: 20px;
         padding: 40px 35px;
         text-align: center;
+       
     }
 
     .search {
         width: 100%;
-        display: flex;
+        display: inline-flex;
         align-items: center;
         justify-content: space-between;
     }
@@ -45,7 +46,7 @@
         background: #ebfffc;
         border-radius: 50%;
         width: 50px;
-        height 90px: 
+        height 50px: 
         
     }
 
