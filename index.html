@@ -38,6 +38,18 @@
         </div>
     </div>
 
+    <script>
+
+        const apiKey = "f0ae9479f611e12f97271e1f2366b478";
+        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=suzano";
+
+        async function checkWeather(){
+            const response = await fetch(apiUrl + '&appid=${apiKey}');
+            
+
+        }
+
+    </script>
 </body>
 
 </html>

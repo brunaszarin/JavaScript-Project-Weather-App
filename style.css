@@ -12,7 +12,7 @@
     .card {
         width: 90%;
         max-width: 470px;
-        background: linear-gradient(135deg, #00feba, #5b548a);
+        background: linear-gradient(135deg, #E0EAFC, #CFDEF3);
         color: #fff;
         margin: 100px auto 0;
         border-radius: 20px;
@@ -31,8 +31,8 @@
     .search input {
         border: 0;
         outline: 0;
-        background: #ebfffc;
-        color: #555;
+        background: #CFDEF3;
+        color: #ffffff;
         padding: 10px 25px;
         height: 60px;
         border-radius: 30px;
@@ -44,7 +44,7 @@
     .search button{
         border: 0;
         outline: 0;
-        background: #ebfffc;
+        background: #CFDEF3;
         border-radius: 50%;
         width: 60px;
         height: 60px; 
