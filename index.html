@@ -41,11 +41,13 @@
     <script>
 
         const apiKey = "f0ae9479f611e12f97271e1f2366b478";
-        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=suzano";
+        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
-        async function checkWeather(){
+        const searchBox = document.querySelector(".search input");
+        const searchBtn = document.querySelector(".search button");
 
-            const response = await fetch(apiUrl + `&appid=${apiKey}`);
+        async function checkWeather(city){
+            const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
             var data = await response.json();
 
             console.log(data);
@@ -57,7 +59,9 @@
             document.querySelector('.wind').innerHTML = data.wind.speed + "km/h";
         }
         
-
+        searchBtn.addEventListener('click', ()=>{
+            checkWeather(searchBox.value);
+        })
         checkWeather();
     </script>
 </body>
