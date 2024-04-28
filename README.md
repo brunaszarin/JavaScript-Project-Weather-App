@@ -41,8 +41,7 @@ Contributions are welcome! Feel free to open an Issue to discuss changes you wou
 
 ## Note
 
-This project is solely for practicing my skills in JavaScript and web development. It is not licensed for public use.
-
+This project is solely for practicing my skills in JavaScript and web development. 
 ## Contact
 
 If you have any questions or suggestions, feel free to contact me at [brunaszarin@gmail.com](mailto:brunaszarin@gmail.com).
