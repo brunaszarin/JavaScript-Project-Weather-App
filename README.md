@@ -1,6 +1,6 @@
 # Weather App
 
-![Weather App Demo](https://github.com/brunaszarin/JavaScript-Project-Weather-App/main/demo.gif.gif)
+![Weather App Demo](https://github.com/brunaszarin/JavaScript-Project-Weather-App/blob/main/demo.gif.gif)
 
 A simple JavaScript application to check the weather of different cities.
 
