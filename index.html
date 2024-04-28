@@ -51,8 +51,7 @@
             const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
             var data = await response.json();
 
-            console.log(data);
-        
+            concole.log(data);
 
             document.querySelector('.city').innerHTML = data.name;
             document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + "°c";
@@ -74,6 +73,7 @@
             else if(data.weather[0].main == "Mist"){
                 weatherIcon.src = "images/mist.png";
             }
+
         }
         
         searchBtn.addEventListener('click', ()=>{
