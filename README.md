@@ -26,7 +26,7 @@ A simple JavaScript application to check the weather of different cities.
 ## How to Use
 
 - In the application interface, type the name of the city you want to check the weather for and press Enter.
-- You will see information about the current weather and the forecast for the upcoming days.
+- You will see information about the current weather and the forecast for the day.
 
 ## Contribution
 
