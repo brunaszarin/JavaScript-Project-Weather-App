@@ -7,7 +7,6 @@ A simple JavaScript application to check the weather of different cities.
 ## Features
 
 - **Weather Query**: Enter the name of the desired city and get information about the current weather.
-- **Weather Forecast**: In addition to the current weather, you can also view the weather forecast for the upcoming days.
 - **Weather Details**: Provides details such as temperature, humidity, wind speed, etc.
 
 ## Installation
